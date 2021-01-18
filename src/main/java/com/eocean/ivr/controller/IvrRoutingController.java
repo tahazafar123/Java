@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/ivr-routing")
+@RequestMapping("/ivr-main-route")
 public class IvrRoutingController {
 
     @Autowired

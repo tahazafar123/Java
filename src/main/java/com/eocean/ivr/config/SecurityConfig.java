@@ -37,7 +37,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/v2/**",
                         "/swagger-resources/**")
                 .permitAll()
-                .antMatchers( "/ivr-routing/**","/download/**")
+                .antMatchers( "/ivr-routing/**","/customer/**","/download/**")
                 .permitAll()
                 .anyRequest()
                 .authenticated();
